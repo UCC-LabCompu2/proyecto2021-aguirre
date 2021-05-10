@@ -2,7 +2,7 @@
 
 Entrená tu memoria y divertite al mismo tiempo! Match The Memory es el clasico juego de memoria en el que tenemos que voltear tarjetas para hallar sus pares, este proyecto fue creado en segundo año de Ingenieria en Computacion en la materia Laboratorio de Computacion II (UCC)
 
-Link a : [Match The Memory](https://kiba24.github.io/Proyecto2021-Aguirre/index.html)
+Link a : [Match The Memory](https://ucc-labcompu2.github.io/proyecto2021-aguirre/index.html)
 
 ## Información Adicional:
 Autor: Aguirre Salvador
