@@ -1,0 +1,38 @@
+body {
+	background: #4e078b
+}
+
+#maintitle{
+	font-family: Krona One, sans-serif;
+	color: white;
+	font-size: 3vw;
+}
+
+hr.rounded {
+	border-top: 9px solid white;
+	border-radius: 15px;
+}
+
+.container {
+	width: 1080px;
+	margin: 30px auto;
+}
+
+.card {
+	float: left;
+	margin:15px;
+	width: 150px;
+	height: 200px;
+	background-image: url("Imagenes/QCard.png");
+	background-size: auto;	
+}
+
+.card:hover{
+	cursor: pointer;
+}
+
+.card:active{
+
+	transform: rotateY(180deg);
+	transition: 1s;
+}

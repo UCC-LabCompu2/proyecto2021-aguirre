@@ -1,0 +1,80 @@
+body{
+	background: #4e078b;
+}
+
+#maintitle {
+	position: relative;
+	font-family: Krona One, sans-serif;
+	font-size: 5vw;
+	color: white;
+	text-align: left;
+
+}
+hr.rounded {
+	border-top: 9px solid white;
+	border-radius: 15px;
+}
+#instructions {
+	font-size: 2.5vw;
+	width: 100%;
+	color: white;
+	font-family: 'Itim', cursive;
+	
+}
+
+#button {
+	text-align: center;
+}
+button {
+	position: relative;
+	background-color: #4CAF50;
+	border-radius: 20px;
+	font-size: 3vw;
+	box-shadow: 0 8px #666;
+	border: 0px;
+	color: white;
+	font-family: 'Itim', cursive;
+	opacity: 0.8;
+
+}
+
+button:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+button:active {
+	transform: translateY(2px);
+	box-shadow: 0 5px #666;
+}
+
+a {
+	
+	position: relative;
+	float: right;
+	right: 12vw;
+	text-decoration: none;
+	display: inline-block;
+	padding: 40px 40px;
+	transform: translateY(-10vw);
+	font-size: 1.5vw;
+	border-radius: 50%;
+	box-shadow: 0 8px #666;
+	opacity:0.8;
+}
+
+a:hover {
+	background-color: #4CAF50;
+	color: white;
+	opacity: 1;
+}
+
+.previous {
+	size: relative;
+	position: relative;
+	background-color: #4CAF50;
+	color: white;
+}
+
+#backbutton {
+	position: relative;
+}
