@@ -38,7 +38,7 @@ Tecnologias usadas:
 
 Accesibilidad:
 
-- [ ]   Toda imagen debe tener su etiqueta alt
-- [ ]   Todo  `<input>`  o  `<select>`  debe tener su  `<label>`
-- [ ]  Los labels deben contener el atributo  **for**  (el for debe contener el id del input al cual se referencia)
+- [x]   Toda imagen debe tener su etiqueta alt
+- [x]   Todo  `<input>`  o  `<select>`  debe tener su  `<label>`
+- [x]  Los labels deben contener el atributo  **for**  (el for debe contener el id del input al cual se referencia)
 - [x]  Si hay una tabla en la página, debe contener  `<caption></caption>`
