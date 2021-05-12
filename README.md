@@ -1,5 +1,4 @@
 
-=======
 # 🧩 Match The Memory 🧩
 
 Entrená tu memoria y divertite al mismo tiempo! Match The Memory es el clasico juego de memoria en el que tenemos que voltear tarjetas para hallar sus pares, este proyecto fue creado en segundo año de Ingenieria en Computacion en la materia Laboratorio de Computacion II (UCC)
@@ -44,4 +43,3 @@ Accesibilidad:
 - [x]   Todo  `<input>`  o  `<select>`  debe tener su  `<label>`
 - [x]  Los labels deben contener el atributo  **for**  (el for debe contener el id del input al cual se referencia)
 - [x]  Si hay una tabla en la página, debe contener  `<caption></caption>`
->>>>>>> 7fff88463501964ec085d2eef48ee6819e575865
