@@ -22,33 +22,12 @@ hr.rounded {
 	
 }
 
-#button {
-	text-align: center;
-}
-button {
+
+
+.previous {
+	size: relative;
 	position: relative;
 	background-color: #4CAF50;
-	border-radius: 20px;
-	font-size: 3vw;
-	box-shadow: 0 8px #666;
-	border: 0px;
-	color: white;
-	font-family: 'Itim', cursive;
-	opacity: 0.8;
-
-}
-
-button:hover{
-	cursor: pointer;
-	opacity: 1;
-}
-button:active {
-	transform: translateY(2px);
-	box-shadow: 0 5px #666;
-}
-
-a {
-	
 	position: relative;
 	float: right;
 	right: 12vw;
@@ -60,21 +39,41 @@ a {
 	border-radius: 50%;
 	box-shadow: 0 8px #666;
 	opacity:0.8;
+	color: white;
 }
 
-a:hover {
+a{
+	text-decoration: none;
+}
+.previous:hover {
 	background-color: #4CAF50;
 	color: white;
 	opacity: 1;
 }
 
-.previous {
-	size: relative;
+#buttoncontainer {
+	text-align: center;
+}
+.button {
+	text-align: center;
 	position: relative;
 	background-color: #4CAF50;
+	border-radius: 20px;
+	font-size: 3vw;
+	box-shadow: 0 8px #666;
+	border: 0px;
 	color: white;
+	font-family: 'Itim', cursive;
+	opacity: 0.8;
+	padding: .5rem 3rem;
 }
 
-#backbutton {
-	position: relative;
+
+.button:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+.button:active {
+	transform: translateY(2px);
+	box-shadow: 0 5px #666;
 }

@@ -1,7 +1,7 @@
 header{
 	border: 0;
 	padding: 0;
-	box-sizing: 
+	
 }
 
 body{
@@ -25,38 +25,13 @@ footer {
 	text-align: center;
 }
 
-#play {
-	background-color: #f44336;
-	font-size: 5vw;
-	width: 35%;
-	border-radius:25px;
-	font-family: 'Itim', cursive;
-	
-	opacity: 0.75;
-	color: white;
-	box-shadow: 0 5px #999;
-	border: 0px;
-
-}
-
-#play:hover {
-	cursor: pointer;
-	transition: 0.5s;
-	opacity: 1;
-}
-
-#play:active {
-	box-shadow: 0 5px #666;
-	transform: translateY(3px);
-}
-
 #div2{
 	position: relative;
 	margin-top: 10%;
 }
 
-#howtoplay {
-	background-color: #4CAF50;
+.button {
+	
 	width: 25%;
 	font-size: 2vw;
 	border-radius: 20px;
@@ -66,17 +41,31 @@ footer {
 	
 	font-family: 'Itim', cursive;
 	opacity: 0.8;
+	padding: .5rem 2rem;
 }
 
 
-#howtoplay:hover {
+.button:hover {
 	opacity: 1;
 	transition: 0.3s;
 	cursor: pointer;
 }
-#howtoplay:active {
+.button:active {	
 	transform: translateY(3px);
 	box-shadow: 0 5px #666;
+}
+
+.button-1 {
+	background-color: #4CAF50;
+}
+
+.button-2 {
+	background-color: #f44336;
+	font-size: 5vw;
+	width: 35%;
+	border-radius:25px;
+	font-family: 'Itim', cursive;
+	padding: 1rem 6rem;
 }
 
 
@@ -94,3 +83,4 @@ a {
 	color: white;
 	text-decoration: none;
 }
+
